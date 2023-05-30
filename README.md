@@ -18,6 +18,6 @@ this generates the body element, its like the head but you also need to specify 
 ## Tag(tag, attributes, content, self_closing)
 this creates a Tag. !!! Please set self_closing to True only on self closing tags !!!
 
-#example website
+# example website
 
     HTML(f"{ Head('') } { Body('', Tag('p','','made using',False) + Tag('h1', '', 'Pywext', False) }","index.html")
