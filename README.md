@@ -20,4 +20,10 @@ this creates a Tag. !!! Please set self_closing to True only on self closing tag
 
 # example website
 
-    HTML(f"{ Head('') } { Body('', Tag('p','','made using',False) + Tag('h1', '', 'Pywext', False)) }","index.html")
+    HTML(f"""
+    { Head('') } 
+    { Body('', 
+       Tag('p','','made using',False)
+       + 
+       Tag('h1', '', 'Pywext', False))
+    }""","index.html")
