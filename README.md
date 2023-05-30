@@ -1,4 +1,4 @@
-![Pywext](Pywext-Logo.jpeg)
+![Pywext](9AAB9E90-14FC-4C16-A26B-2E2A690C6996.jpeg)
 
 # What is Pywext?
 pywext is a python library that can compile to html.
